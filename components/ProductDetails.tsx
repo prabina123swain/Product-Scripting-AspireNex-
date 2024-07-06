@@ -1,5 +1,4 @@
 import React from 'react'
-import Modal from "@/components/Modal";
 import PriceInfoCard from "@/components/PriceInfoCard";
 import ProductCard from "@/components/ProductCard";
 import { formatNumber } from "@/lib/utils";
