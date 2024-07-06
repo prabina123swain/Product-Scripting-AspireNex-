@@ -1,12 +1,11 @@
 "use client"
 import { useState, useRef, useEffect } from "react";
-import HeroCarousel from "@/components/HeroCarousel";
 import Searchbar from "@/components/Searchbar";
 import Image from "next/image";
 // import { getAllProducts } from "@/lib/actions";
-import ProductCard from "@/components/ProductCard";
 import { Product } from "@/types";
 import ProductDetails from "@/components/ProductDetails";
+import HeroCarousel from "@/components/HeroCarousel";
 
 const Home = () => {
   //const allProducts = await getAllProducts();
